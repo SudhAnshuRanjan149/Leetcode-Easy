@@ -45,7 +45,7 @@
 class Solution {
     public int[] buildArray(int[] nums) {
         
-        // Approach 1
+        // Approach 1	[time -> O(n) space -> O(n)]
         //  int [] ans = new int [nums.length];
 
         //  for(int i = 0 ; i < nums.length; i++){
@@ -55,7 +55,8 @@ class Solution {
         // return ans;
         
         
-        // Approach 2
+        // Approach 2	[time -> 2 * O(n) space -> O(1)]
+		// Euclid's division lemma
         
         int n = nums.length;
         
